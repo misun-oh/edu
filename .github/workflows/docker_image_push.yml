@@ -9,10 +9,6 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: edu   # edu 폴더 기준으로 실행
-
     steps:
       # 1. 소스 코드 체크아웃
       - name: Checkout code
