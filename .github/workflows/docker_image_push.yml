@@ -38,8 +38,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: edu
-          file: edu/Dockerfile
+          file: Dockerfile
           push: true
           tags: momoclass5/edu:latest
           cache-from: type=registry,ref=misun1234/edu:latest
