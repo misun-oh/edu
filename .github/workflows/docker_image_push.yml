@@ -45,6 +45,6 @@ jobs:
           context: edu
           file: edu/Dockerfile
           push: true
-          tags: misun1234/edu:latest
+          tags: momoclass5/edu:latest
           cache-from: type=registry,ref=misun1234/edu:latest
           cache-to: type=inline
