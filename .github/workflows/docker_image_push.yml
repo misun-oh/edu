@@ -5,8 +5,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'edu/**'   # edu 폴더 변경 시에만
 
 jobs:
   build-and-push:
